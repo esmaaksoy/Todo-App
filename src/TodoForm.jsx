@@ -6,7 +6,6 @@ const TodoForm = ({addTodo}) => {
         e.preventDefault();
         addTodo(value)
         setValue('');
-     
     }
   return (
     <div>
