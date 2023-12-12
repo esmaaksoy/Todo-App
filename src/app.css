@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#012626;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo{
+    background:#04BFAD;
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.todoform{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.input{
+    outline: none;
+  background: none;
+  border: 1px solid #012626;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+}
+.btn{
+    background:#012626;
+    color: #fff;
+    border: none;
+    padding: 0.55rem;
+    cursor: pointer; 
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#012626;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.edit{
+    cursor: pointer;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+}
+.delete{
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+h1{
+    color: white;
+}
