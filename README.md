@@ -2,7 +2,7 @@
 This project is a website created using React and React-icons. This simple Todo application allows users to add, delete, and edit tasks.
 
 ## Screenshots
-![Project snapshot](./todo.gif) 
+![Project snapshot](./todoApp.gif) 
 
 [Todo List Live Page](https://todo-app-esma.netlify.app/)
 
