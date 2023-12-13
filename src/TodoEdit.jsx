@@ -9,7 +9,7 @@ const TodoEdit = ({editTask, item}) => {
     return (
         <form onSubmit={handleSubmit} className="todoform">
         <input type="text" value={value} onChange={(e) => setValue(e.target.value)} className="input" placeholder='Update task' />
-        <button type="submit" className='btn'>Add Task</button>
+        <button type="submit" className='btn'>Edit Task</button>
       </form>
       )
 }
