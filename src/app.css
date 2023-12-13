@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    background:#012626;
+    background:#FFEC5C;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .todo{
-    background:#04BFAD;
+    background:#146152;
     margin-top: 5rem;
     padding: 2rem;
     border-radius: 5px;
@@ -22,16 +22,16 @@ body{
 .input{
     outline: none;
   background: none;
-  border: 1px solid #012626;
+  border: 1px solid #FFEC5C;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
   width: 300px;
-  color: #fff;
+  color:#FF5A33;
 }
 .btn{
-    background:#012626;
-    color: #fff;
+    background:#FFEC5C;
+    color: #FF5A33;
     border: none;
     padding: 0.55rem;
     cursor: pointer; 
@@ -40,8 +40,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background:#012626;
-    color: #fff;
+    background:#FFEC5C;
+    color:#FF5A33;
     padding: 0.75rem 1rem;
     border-radius: 5px;
     margin-bottom: 1rem;
@@ -50,11 +50,14 @@ body{
     cursor: pointer;
     margin-right: 0.5rem;
     font-size: 1rem;
+    color: #FF5A33;
 }
 .delete{
     cursor: pointer;
     font-size: 0.8rem;
+    color: #FF5A33;
 }
 h1{
-    color: white;
+    color:#B4CF66;
+    text-align: center;
 }
